@@ -84,11 +84,9 @@ export default function InitiativesPage() {
 
   return (
     <>
-      {/* Tailwind CSS CDN */}
-      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
 
       {/* Custom CSS for Green Theme */}
-      <style jsx>{`
+      <style>{`
         :root {
           --emerald-primary: #2E7D32;
           --medium-sea-green: #66BB6A;
