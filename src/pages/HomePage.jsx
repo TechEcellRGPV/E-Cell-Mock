@@ -1,9 +1,19 @@
-import React from 'react'
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Initiative from "../components/Initiative";
+import Vision from "../components/Vision";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Navbar />
+      <Hero />
+      <Vision />
+      <Initiative />
+      <Footer />
+    </>
+  );
+};
 
-export default Home
+export default Home;
