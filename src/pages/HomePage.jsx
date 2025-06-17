@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Initiative from "../components/Initiative";
 import Vision from "../components/Vision";
 import Footer from "../components/Footer";
+import Adventure from "../components/Adventure";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Vision />
       <Initiative />
+      <Adventure />
       <Footer />
     </>
   );

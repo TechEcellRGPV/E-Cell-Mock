@@ -1,11 +1,10 @@
-
-"use client"
+"use client";
 
 export default function HeroSection() {
   return (
     <>
       {/* Embedded Styles */}
-      <style jsx>{`
+      <style>{`
         @keyframes spin-slow {
           from {
             transform: rotate(0deg);
@@ -70,7 +69,7 @@ export default function HeroSection() {
 
       <section
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
-        style={{ backgroundColor: "#F1F8F4" }}
+        style={{ backgroundColor: "#F1F8F4", paddingTop: "64px" }}
       >
         {/* Animated Background Circles */}
         <div className="absolute inset-0 flex items-center justify-center">
@@ -170,7 +169,9 @@ export default function HeroSection() {
           </div>
 
           {/* Tech Lines */}
-          <div style={{ width: "700px", height: "700px", position: "absolute" }}>
+          <div
+            style={{ width: "700px", height: "700px", position: "absolute" }}
+          >
             <div
               className="absolute animate-pulse"
               style={{
@@ -236,7 +237,10 @@ export default function HeroSection() {
                 }}
               >
                 <div className="text-center">
-                  <div className="font-bold" style={{ fontSize: "1.875rem", color: "#2E7D32" }}>
+                  <div
+                    className="font-bold"
+                    style={{ fontSize: "1.875rem", color: "#2E7D32" }}
+                  >
                     e
                   </div>
                   <div
@@ -302,7 +306,9 @@ export default function HeroSection() {
 
             {/* CTA Button */}
             <div style={{ paddingTop: "2rem" }}>
-              <button className="hero-button">E-VOLVE : E-CELL ANNUAL MAGAZINE</button>
+              <button className="hero-button">
+                E-VOLVE : E-CELL ANNUAL MAGAZINE
+              </button>
             </div>
 
             {/* Subtitle */}
@@ -313,7 +319,8 @@ export default function HeroSection() {
                 color: "#212121",
               }}
             >
-              Fostering entrepreneurship and innovation through technology, mentorship, and community building
+              Fostering entrepreneurship and innovation through technology,
+              mentorship, and community building
             </p>
           </div>
         </div>
@@ -366,6 +373,5 @@ export default function HeroSection() {
         </div>
       </section>
     </>
-  )
+  );
 }
-
